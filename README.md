@@ -30,3 +30,57 @@ This section outlines the directory structure of the project after setup, provid
 | [YOLO11m](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11m.pt) | 640                         | 51.5                       | 183.2 ± 2.0                          | 4.7 ± 0.1                                 | 20.1                         | 68.0                    |
 | [YOLO11l](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11l.pt) | 640                         | 53.4                       | 238.6 ± 1.4                          | 6.2 ± 0.1                                 | 25.3                         | 86.9                    |
 | [YOLO11x](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11x.pt) | 640                         | 54.7                       | 462.8 ± 6.7                          | 11.3 ± 0.2                                | 56.9                         | 194.9                   |
+
+## 🛠️ How to Set Up This Project
+
+This guide will help you set up the project's environment seamlessly.
+
+**<u>1. Install Python</u> 🐍**
+
+If you haven't installed Python yet, visit the official download page: [Python Download Guide](https://wiki.python.org/moin/BeginnersGuide/Download) and follow the instructions for your operating system (Windows, macOS, or Linux).
+
+**<u>2. Create a Virtual Environment</u>**
+
+1. Creating a virtual environment:
+
+   - In the terminal, run this command:
+
+   ```bash
+   python -m venv venv
+   ```
+
+2. Activate the virtual environment:
+
+   - To activate the virtual environment, use:
+
+   ```bash
+   .\venv\Scripts\activate
+   ```
+
+**3. Clone the Repository 📥**
+
+1. Open your Git client or terminal.
+2. Navigate to the directory where you want to clone the repository.
+3. Run the following command, replacing `<repository_url>` with the actual URL of the project's repository:
+
+```bash
+git clone <repository_url>
+```
+
+**3. Install required Dependencies 📦**
+
+1. Open terminal/cmd.
+2. Navigate to repo directory
+3. Run the following command to install dependencies from requirements.txt:
+
+```bash
+pip install -r requirements.txt
+```
+
+**4. Host the project Locally 🌐**
+
+- After installing the required dependencies, run the following command to start the project locally:
+
+```bash
+streamlit run ./server.py
+```
